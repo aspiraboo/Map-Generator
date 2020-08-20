@@ -1,11 +1,7 @@
 /* coherent noise function over 1, 2 or 3 dimensions */
 /* (copyright Ken Perlin) */
 
-#include <stdlib.h>
-#include <stdio.h>
-#include <math.h>
-
-#include "noise.h"
+#include "Noise.h"
 
 #define B SAMPLE_SIZE
 #define BM (SAMPLE_SIZE-1)

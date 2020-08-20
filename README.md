@@ -42,9 +42,9 @@ At the moment there's only island preset, but more presets will be added soon!
 
 **Island** preset examples:
 
-![Island Preset Image](http://vestia.pl/images/uploader/18092014-6753643.png "Island Preset Image"),
-![Island Preset Image](http://vestia.pl/images/uploader/18092014-4559054.png "Island Preset Image"),
-![Island Preset Image](http://vestia.pl/images/uploader/18092014-6550519.png "Island Preset Image")
+![Island Preset Image](exphotos/map_0.png "Island Preset Image"),
+![Island Preset Image](exphotos/map_1.png "Island Preset Image"),
+![Island Preset Image](exphotos/map_2.png "Island Preset Image")
 
 ### How to use?
 Here are some sample commands:

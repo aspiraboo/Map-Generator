@@ -1,6 +1,8 @@
 #ifndef __NOISE_H__
 #define __NOISE_H__
 
+#include "otpch.h"
+
 #include "Map.h"
 
 // Noise classes

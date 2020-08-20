@@ -1,6 +1,5 @@
 #ifndef PERLIN_H_
 #define PERLIN_H_
-#include <stdlib.h>
 
 #define SAMPLE_SIZE 1024
 

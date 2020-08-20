@@ -23,7 +23,7 @@ public:
 	Map(int size);
 	~Map();
 
-	void Map::uncheckTiles();
+	void uncheckTiles();
 	void recurrentSelect(Vec2<int> startPos, float minValue = 0.0f, float maxValue = 1.0f);
 	void reverseSelection();
 	void setSelection(float value);

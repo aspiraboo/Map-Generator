@@ -30,13 +30,6 @@ Rename this file to lodepng.cpp to use it for C++, or to lodepng.c to use it for
 
 #include "lodepng.h"
 
-#include <stdio.h>
-#include <stdlib.h>
-
-#ifdef LODEPNG_COMPILE_CPP
-#include <fstream>
-#endif /*LODEPNG_COMPILE_CPP*/
-
 #define VERSION_STRING "20140823"
 
 #if defined(_MSC_VER) && (_MSC_VER >= 1310) /*Visual Studio: A few warning types are not desired here.*/

@@ -4,7 +4,7 @@
 #ifndef __vec2_H__
 #define __vec2_H__
 
-#include <cmath>
+#include "otpch.h"
 
 template <class T>
 class Vec2 {

@@ -6,7 +6,8 @@
 #include "Vec2.h"
 #include "Tools.h"
 
-#include <iostream>
+#include "otpch.h"
+
 using namespace std;
 
 IslandGenerator::IslandGenerator()

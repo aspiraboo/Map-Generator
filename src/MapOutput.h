@@ -3,7 +3,7 @@
 
 #include "Map.h"
 
-#include <string>
+#include "otpch.h"
 using namespace std;
 
 class MapOutput

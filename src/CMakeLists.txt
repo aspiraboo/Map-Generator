@@ -1,0 +1,12 @@
+set(map_SRC
+    ${CMAKE_CURRENT_LIST_DIR}/Gradient.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/IslandGenerator.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/lodepng.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Main.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Map.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/MapOutput.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Noise.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Perlin.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Tile.cpp
+    ${CMAKE_CURRENT_LIST_DIR}/Tools.cpp
+    PARENT_SCOPE)

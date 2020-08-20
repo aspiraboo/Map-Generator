@@ -2,7 +2,7 @@
 
 #include "lodepng.h"
 
-#include <fstream>
+#include "otpch.h"
 
 bool MapOutput::saveAsLUA(const Map& map, string filename)
 {
@@ -112,9 +112,9 @@ bool MapOutput::saveAsOTBM(const Map& map, string filename)
 
 	int local_x = -1, local_y = -1, local_z = -1;
 
-	FILE* f;
+	FILE* f = fopen(filename.c_str(), "wb");
 
-	if (fopen_s(&f, filename.c_str(), "wb"))
+	if (!f)
 		return false;
 
 	vector<unsigned char> header1{
